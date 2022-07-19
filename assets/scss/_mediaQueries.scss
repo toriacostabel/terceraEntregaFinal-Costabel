@@ -1,0 +1,34 @@
+@media(max-width:960px){
+    .serviciosContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .servicio{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .quienSoyCont{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .quienSoyTxt{
+        width: 90%;
+        margin: 5%;
+        margin-top: 10px;
+    }
+    .fotoPersonalCont{
+        width: 90%;
+        margin: 5%;
+        margin-bottom: 0;
+    }
+   
+}
+@media(max-width:580px){
+    .servicio{
+        flex-direction: column;
+    }
+}

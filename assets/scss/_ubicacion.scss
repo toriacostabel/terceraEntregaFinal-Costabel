@@ -1,0 +1,34 @@
+/*--------------------ubicacion-----------------*/
+.ubicacionMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ubicacionTitulo{
+    font-size: 50px;
+    text-align: center;
+    margin: 16px 0px 0px 0px;
+}
+.ubicacionTxt{
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+}
+/*-------------mapa-------------*/
+.map-responsive{
+    margin: 5px 10px 25px 10px;
+    width: 80%;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

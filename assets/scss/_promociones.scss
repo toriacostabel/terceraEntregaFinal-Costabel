@@ -1,0 +1,38 @@
+/*----------------promociones----------------*/
+.promocion{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:  #ffcdd4;
+    align-items: center;
+    transition: all 0.4s;
+}
+.promocion:hover{
+    box-shadow: 0px 5px 16px 3px rgba(142,112,112,0.75);
+    -webkit-box-shadow: 0px 5px 16px 3px rgba(142,112,112,0.75);
+    -moz-box-shadow: 0px 5px 16px 3px rgba(142,112,112,0.75);
+    transform: translateY(-10px);
+}
+.promoH2{
+    text-align: center;
+}
+.promoTxt{
+    text-align: center;
+}
+.promoP{
+    padding: 0;
+    margin: 3px;
+}
+.imgPromo{
+    border-radius: 8px;
+}
+.comprar{
+    background-color: rgb(238, 98, 138);
+    width: 40%;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    margin: 0;
+}
