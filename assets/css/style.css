@@ -14,13 +14,11 @@
 .header {
   background-color: rgb(238, 98, 138);
 }
-
-.headerH1 {
+.header .headerH1 {
   text-align: center;
   padding: 20px 0px 2px 0px;
 }
-
-.headerH2 {
+.header .headerH2 {
   text-align: center;
   padding: 4px 0px 12px 0px;
 }
@@ -315,22 +313,19 @@
   grid-area: footer;
   background-color: rgb(238, 98, 138);
 }
-
-.footerContainer {
+.footer .footerContainer {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-
-.footerCopyright {
+.footer .footerContainer .footerCopyright {
   padding: 24px 0px 15px 0px;
   text-align: center;
   font-size: 16px;
   font-weight: bolder;
 }
-
-.footerNav {
+.footer .footerContainer .footerNav {
   width: 100%;
   font-weight: bold;
   text-align: center;
@@ -338,25 +333,22 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-.footerNav ul {
+.footer .footerContainer .footerNav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
-
-.footerNav ul li {
+.footer .footerContainer .footerNav ul li {
   list-style: none;
   padding: 5px;
 }
-
-.footerNav ul li a {
+.footer .footerContainer .footerNav ul li a {
   text-decoration: none;
+  font-size: 20px;
   font-weight: 500;
   color: black;
 }
-
-.footerNav ul li a:hover {
+.footer .footerContainer .footerNav ul li a:hover {
   color: #FFCDD4;
 }
 
