@@ -1,6 +1,6 @@
 /*--------------------quien soy-----------------*/
 .quienSoyTitulo{
-    text-align: center;
+    text-align: center; 
     font-size: 50px;
     margin: 16px 0px 10px 0px;
 }
@@ -22,9 +22,11 @@
 .fotoPersonalCont{
     padding: 10px;
     width: 35%;
+    .fotoPersonal{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
 }
-.fotoPersonal{
-    border-radius: 5px;
-    width: 100%;
-    height: 100%;
-}
+
+/*---este archivo no tiene nesting completo porque no he logrado hacer que funcione correctamente y se rompe---*/
