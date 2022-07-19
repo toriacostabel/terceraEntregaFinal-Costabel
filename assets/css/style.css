@@ -218,8 +218,7 @@
   flex-direction: column;
   align-items: center;
 }
-
-.form {
+.contactMain .form {
   margin: 10px;
   border-radius: 8px;
   background-color: #FFCDD4;
@@ -227,99 +226,88 @@
   flex-direction: column;
   transition: all 0.2s;
 }
-
-.form:hover {
+.contactMain .form:hover {
   box-shadow: 0px 5px 16px 3px rgba(249, 196, 196, 0.75);
   -webkit-box-shadow: 0px 5px 16px 3px rgba(249, 196, 196, 0.75);
   -moz-box-shadow: 0px 5px 16px 3px rgba(249, 196, 196, 0.75);
   transform: translateY(-1px);
 }
-
-.form legend {
-  padding: 5px;
-  text-align: center;
-}
-
-.fieldset {
+.contactMain .form .fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.nombre-apellido {
+.contactMain .form .fieldset legend {
+  padding: 5px;
+  text-align: center;
+}
+.contactMain .form .fieldset .nombre-apellido {
   padding: 8px;
 }
-
-.nombre-apellido input {
+.contactMain .form .fieldset .nombre-apellido input {
   outline: none;
   border-radius: 5px;
   border: 0;
   background-color: white;
   padding: 5px;
 }
-
-.email-telefono {
+.contactMain .form .fieldset .email-telefono {
   padding: 8px;
 }
-
-.email-telefono input {
+.contactMain .form .fieldset .email-telefono input {
   outline: none;
   border-radius: 5px;
   border: 0;
   background-color: white;
   padding: 5px;
 }
-
-.dropdown {
+.contactMain .form .fieldset .dropdown {
   outline: none;
   padding: 8px;
   width: 100%;
   border-radius: 5px;
   border: 0;
 }
-
-.mensaje textarea {
+.contactMain .form .fieldset .mensaje textarea {
   outline: none;
   width: 100%;
   padding: 8px;
   border: 0;
   border-radius: 5px;
 }
-
-.checkbox {
+.contactMain .form .fieldset .checkbox {
   margin-top: 10px;
   padding: 5px 15px;
   border-radius: 5px;
   background-color: rgb(249, 157, 182);
 }
-
-.botonesForm {
+.contactMain .form .botonesForm {
   margin-top: 5px;
   padding: 10px;
   display: flex;
   flex-direction: row-reverse;
 }
-
-.btnForm {
+.contactMain .form .botonesForm .btnForm {
   width: 80px;
   margin: 5px;
   padding: 5px;
 }
-
-.submit {
+.contactMain .form .botonesForm .submit {
   background-color: rgb(238, 98, 138);
   border: none;
   border-radius: 5px;
   color: white;
   font-weight: 600;
 }
-
-.reset {
+.contactMain .form .botonesForm .reset {
   background-color: #FFCDD4;
   border: 0;
   border-radius: 5px;
   color: rgb(238, 98, 138);
   font-weight: 600;
+}
+.contactMain .form .botonesForm .reset:hover {
+  background-color: rgb(248, 186, 203);
 }
 
 /*--------------------footer-------------------*/
