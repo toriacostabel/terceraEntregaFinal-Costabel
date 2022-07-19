@@ -16,7 +16,7 @@
 .servicio{
     width: 48%;
     margin: 10px 0;
-    background-color: #FFCDD4;
+    background-color: $rosaSuave;
     border-radius: 10px;
     transition: all 0.4s;
     display: grid;
@@ -26,9 +26,9 @@
                          "srvcImgCont srvcImgCont srvcTxt srvcTxt";
 }
 .servicio:hover{
-    box-shadow: 0px 5px 16px 3px rgba(142,112,112,0.75);
-    -webkit-box-shadow: 0px 5px 16px 3px rgba(142,112,112,0.75);
-    -moz-box-shadow: 0px 5px 16px 3px rgba(142,112,112,0.75);
+    box-shadow: 0px 5px 16px 3px $sombraOscura;
+    -webkit-box-shadow: 0px 5px 16px 3px $sombraOscura;
+    -moz-box-shadow: 0px 5px 16px 3px $sombraOscura;
     transform: translateY(-10px);
 }
 .srvcTitle{

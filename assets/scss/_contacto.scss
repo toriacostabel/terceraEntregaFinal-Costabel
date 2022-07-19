@@ -7,15 +7,15 @@
 .form{
     margin: 10px;
     border-radius: 8px;
-    background-color: #FFCDD4;
+    background-color: $rosaSuave;
     display: flex;
     flex-direction: column;
     transition: all 0.2s;
 }
 .form:hover{
-    box-shadow: 0px 5px 16px 3px rgba(249, 196, 196, 0.75);
-    -webkit-box-shadow: 0px 5px 16px 3px rgba(249, 196, 196, 0.75);
-    -moz-box-shadow: 0px 5px 16px 3px rgba(249, 196, 196, 0.75);
+    box-shadow: 0px 5px 16px 3px $sombraClara;
+    -webkit-box-shadow: 0px 5px 16px 3px $sombraClara;
+    -moz-box-shadow: 0px 5px 16px 3px $sombraClara;
     transform: translateY(-1px);
 }
 .form legend {
@@ -79,16 +79,16 @@
     padding: 5px;
 }
 .submit{
-    background-color: rgb(238, 98, 138);
+    background-color: $rosaFuerte;
     border: none;
     border-radius: 5px;
     color: white;
     font-weight: 600;
 }
 .reset{
-    background-color: #FFCDD4;
+    background-color: $rosaSuave;
     border: 0;
     border-radius: 5px;
-    color: rgb(238, 98, 138);
+    color: $rosaFuerte;
     font-weight: 600;
 }

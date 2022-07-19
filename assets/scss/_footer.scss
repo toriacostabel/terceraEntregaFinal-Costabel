@@ -1,8 +1,8 @@
 /*--------------------footer-------------------*/
 .footer{
     grid-area: footer;
-    background-color:rgb(238, 98, 138);
-} 
+    background-color: $rosaFuerte;
+}
 .footerContainer{
     width: 100%;
     height: 100%;
@@ -38,5 +38,5 @@
     color: black;
 }
 .footerNav ul li a:hover{
-    color: #FFCDD4;
+    color: $rosaSuave;
 }
