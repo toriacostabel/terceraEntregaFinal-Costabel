@@ -119,7 +119,6 @@
 
 .srvcImgCont {
   grid-area: srvcImgCont;
-  border-radius: 8px;
   padding: 10px;
 }
 
@@ -139,6 +138,7 @@
   font-size: 20px;
 }
 
+/*---este archivo no tiene nesting porque no he logrado hacer que funcione correctamente y se rompe---*/
 /*--------------------quien soy-----------------*/
 .quienSoyTitulo {
   text-align: center;
