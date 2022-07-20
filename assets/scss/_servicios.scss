@@ -37,7 +37,8 @@
     text-align: center;
 }
 .srvcTitle h3{
-    font-size: 36px;
+    font-size: 38px;
+    padding: 8px 3px 2px 3px;
     margin: 0;
 }
 .srvcImgCont{
@@ -52,7 +53,7 @@
 }
 .srvcTxt{
     grid-area: srvcTxt;
-    padding: 8px 12px;
+    padding: 8px 12px 8px 12px;
     line-height: 22px;
     text-align: center;
     justify-content: center;
