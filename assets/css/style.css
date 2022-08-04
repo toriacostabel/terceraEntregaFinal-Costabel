@@ -375,4 +375,29 @@
   .servicio {
     flex-direction: column;
   }
+}
+@media (max-width: 400px) {
+  .nombre-apellido {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nombre-apellido input {
+    width: 98%;
+    margin: 4px;
+  }
+  .email-telefono {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .email-telefono input {
+    width: 98%;
+    margin: 4px;
+  }
+  .mensaje {
+    width: 94%;
+  }
 }/*# sourceMappingURL=style.css.map */
